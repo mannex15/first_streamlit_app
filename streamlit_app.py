@@ -44,5 +44,5 @@ streamlit.header("The Fruit Load List Contains:")
 streamlit.dataframe(my_data_rows)
 
 # New section to display new fruit to add API response
-fruit_choice = streamlit.text_input('What fruit would you like to add?','fruit_choice')
-streamlit.write('Thanks for adding ', fruit_choice)
+add_my_fruit = streamlit.text_input('What fruit would you like to add?','add_my_fruit')
+streamlit.write('Thanks for adding ', add_my_fruit)
